@@ -24,18 +24,27 @@ include _config.jade
             .scroll
         +appear-module('Pintura', 'Recubrimientos <br>Home Solutions')
         
-      a.item.c(ng-click="activate('three')" ng-class="{'active':page==='three'}" ui-sref="electrico")
+      a.item.c(ui-sref-active="active" ui-sref="electrico")
         .activeTitle
           .appearEvent
             p Eléctrico
             p.small Voz y Datos <br>Cableado
             .scroll
         +appear-module('Eléctrico', 'Voz y Datos <br>Cableado')
+      
+      a.item.c(ui-sref-active="active" ui-sref="acerca-de-nosotros").nosotros
+        .activeTitle
+          .appearEvent
+            p ACERCA DE <br>NOSOTROS
+            .scroll
+      
     
-      a.logo(ui-sref="inicio").container
+      a.logo(ui-sref="acerca-de-nosotros" ui-sref-active="hidden").container
           .c6: img(src="app/img/aplik.png", alt="Apli.k").fluid
           .c6.g: .section-link Acerca de nosotros
-      a(ui-sref="inicio" ng-hide="").goback.fa.fa-angle-left
+      
+      a(ui-sref="inicio" ui-sref-active="hidden").gobackBtn.fa.fa-angle-left
+      
     div(ui-view).initview
       
 

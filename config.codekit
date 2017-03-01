@@ -73,6 +73,72 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/app\/img\/acerca-de-aplik.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300573,
+		"inputAbbreviatedPath": "\/app\/img\/acerca-de-aplik.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca-de-aplik.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/acerca\/aplik-comercios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179965,
+		"inputAbbreviatedPath": "\/app\/img\/acerca\/aplik-comercios.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca\/aplik-comercios.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/acerca\/aplik-desarrollo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109839,
+		"inputAbbreviatedPath": "\/app\/img\/acerca\/aplik-desarrollo.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca\/aplik-desarrollo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/acerca\/aplik-industrias.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130437,
+		"inputAbbreviatedPath": "\/app\/img\/acerca\/aplik-industrias.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca\/aplik-industrias.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/acerca\/aplik-innovacion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189787,
+		"inputAbbreviatedPath": "\/app\/img\/acerca\/aplik-innovacion.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca\/aplik-innovacion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/acerca\/aplik-servicios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88538,
+		"inputAbbreviatedPath": "\/app\/img\/acerca\/aplik-servicios.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/acerca\/aplik-servicios.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/aplik.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -304,15 +370,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/app\/view\/acerca-de-nosotros.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/view\/acerca-de-nosotros.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/view\/acerca-de-nosotros.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -323,6 +380,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/app\/view\/electrico.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/view\/electrico.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/app\/view\/electrico.jade": {
 		"compileDebug": 1,
@@ -537,6 +603,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,

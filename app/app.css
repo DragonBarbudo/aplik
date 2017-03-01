@@ -1386,7 +1386,7 @@ margin-left:calc(100% + 10px);
   background: #ffdd00;
 }
 .bg-sec {
-  background: #4082BC;
+  background: #068CA9;
 }
 .col-b {
   color: #222;
@@ -1401,7 +1401,7 @@ margin-left:calc(100% + 10px);
   color: #ffdd00;
 }
 .col-sec {
-  color: #4082BC;
+  color: #068CA9;
 }
 [backstretch] {
   position: relative;
@@ -1578,6 +1578,9 @@ nav.container .logo:hover {
   transition: 0.6s all;
   left: 30px;
 }
+nav.container .logo.hidden {
+  display: none;
+}
 .item {
   height: 100%;
   cursor: pointer;
@@ -1599,6 +1602,22 @@ nav.container .logo:hover {
 }
 .item:nth-child(3) {
   background-image: url(img/cableado-estructurado.jpg);
+}
+.item:nth-child(4) {
+  background-image: url(img/acerca-de-aplik.jpg);
+}
+.item.nosotros {
+  flex-grow: 0;
+}
+.item.nosotros.active {
+  flex-grow: 1;
+}
+.item.nosotros .activeTitle {
+  height: 50%;
+}
+.item.nosotros .activeTitle .appearEvent {
+  text-align: left;
+  line-height: 1.1em;
 }
 .item .activeTitle {
   zoom: 1;
@@ -1652,13 +1671,6 @@ nav.container .logo:hover {
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
-}
-.item .goback {
-  color: #f5f5f5;
-  position: absolute;
-  left: 1%;
-  top: 50%;
-  margin-left: -18px;
 }
 .item .appear-module {
   position: absolute;
@@ -1745,6 +1757,16 @@ nav.container .logo:hover {
   -o-transition: 0.5s all 1s;
   transition: 0.5s all 1s;
 }
+.gobackBtn {
+  color: #f5f5f5;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  font-size: 4em;
+}
+.gobackBtn.hidden {
+  display: none;
+}
 .appear-module .appear {
   margin-top: -10%;
   margin-bottom: -1%;
@@ -1781,6 +1803,7 @@ nav.container .logo:hover {
 }
 .main h4 {
   font-size: 1.8em;
+  line-height: 1.4em;
 }
 .main p {
   padding: 5px  20px;
@@ -1794,6 +1817,9 @@ nav.container .logo:hover {
 }
 .main ul li {
   margin: 5px 0;
+}
+.main .hl {
+  color: #068CA9;
 }
 .fixedheight {
   height: 788px;
