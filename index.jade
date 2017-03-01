@@ -7,7 +7,7 @@ include _config.jade
     
     
     nav.container(ng-controller="MainCtrl").fluid
-      a(ui-sref="inicio" ng-hide="").goback.fa.fa-angle-left
+      
       a.item.c(ui-sref-active="active" ui-sref="signos")
         .activeTitle
           .appearEvent
@@ -35,7 +35,7 @@ include _config.jade
       a.logo(ui-sref="inicio").container
           .c6: img(src="app/img/aplik.png", alt="Apli.k").fluid
           .c6.g: .section-link Acerca de nosotros
-    
+      a(ui-sref="inicio" ng-hide="").goback.fa.fa-angle-left
     div(ui-view).initview
       
 
