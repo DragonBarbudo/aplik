@@ -1,0 +1,42 @@
+include _config.jade
+
++html5
+  +head('Apli.k', '', '')
+  
+  body(ng-app="dw4")
+    
+    
+    nav.container(ng-controller="MainCtrl").fluid
+      a(ui-sref="inicio" ng-hide="").goback.fa.fa-angle-left
+      a.item.c(ui-sref-active="active" ui-sref="signos")
+        .activeTitle
+          .appearEvent
+            p Signos
+            p.small Anuncios Luminosos <br>Señalización <br>Impresión Digital
+            .scroll
+        +appear-module('Signos', 'Anuncios Luminosos <br>Señalización <br>Impresión Digital ')
+        
+      a.item.c(ui-sref-active="active" ui-sref="pintura")
+        .activeTitle
+          .appearEvent
+            p Pintura
+            p.small Recubrimientos <br>Home Solutions
+            .scroll
+        +appear-module('Pintura', 'Recubrimientos <br>Home Solutions')
+        
+      a.item.c(ng-click="activate('three')" ng-class="{'active':page==='three'}" ui-sref="electrico")
+        .activeTitle
+          .appearEvent
+            p Eléctrico
+            p.small Voz y Datos <br>Cableado
+            .scroll
+        +appear-module('Eléctrico', 'Voz y Datos <br>Cableado')
+    
+      a.logo(ui-sref="inicio").container
+          .c6: img(src="app/img/aplik.png", alt="Apli.k").fluid
+          .c6.g: .section-link Acerca de nosotros
+    
+    div(ui-view).initview
+      
+
+    +scripts
