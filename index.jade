@@ -5,8 +5,23 @@ include _config.jade
   
   body(ng-app="dw4")
     
+    nav.mainmenu
+      .mainmenubtn
+        span
+        span
+        span
+      .mainmenuview
+        .container.middle.fluid
+          .c
+            .tac
+              a(ui-sref="signos") SIGNOS
+              a(ui-sref="pintura") PINTURA
+              a(ui-sref="electrico") ELÉCTRICO
+              a(ui-sref="contacto") CONTACTO
+        
+      
     
-    nav.container(ng-controller="MainCtrl").fluid
+    nav.homemenu.container(ng-controller="MainCtrl").fluid
       
       a.item.c(ui-sref-active="active" ui-sref="signos")
         .activeTitle

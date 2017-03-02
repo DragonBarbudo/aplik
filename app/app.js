@@ -45,9 +45,19 @@ app.run(function($rootScope){
       sr.reveal('.main h2, .main h3, .main h4');
       sr.reveal(' .main p', 20);
       sr.reveal(' .main ul', 50);
-    }, 1000)
+    }, 1000);
+
+      $('.mainmenubtn').removeClass('active');
+      $('.mainmenuview').hide();
 
   });
+
+  $('.mainmenubtn').click(function(){
+    $(this).toggleClass('active');
+    $('.mainmenuview').toggle();
+  });
+
+
 });
 
 
