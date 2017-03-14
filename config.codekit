@@ -172,6 +172,160 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/pintura\/aplicadores.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111098,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/aplicadores.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/aplicadores.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/aplicadores.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73555,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/aplicadores.png",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/aplicadores.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120711,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-1.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193317,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 162981,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-3.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_industrial-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_de_mantenimiento_recubrimientos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180922,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_recubrimientos.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_recubrimientos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_de_mantenimiento_y_limpieza.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76228,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_y_limpieza.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_de_mantenimiento_y_limpieza.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/empresas_que_pintan_casas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180216,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/empresas_que_pintan_casas.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/empresas_que_pintan_casas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/pintores_de_casa_en_el_df-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198708,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_en_el_df-1.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_en_el_df-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/pintores_de_casa_en_el_df-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 252961,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_en_el_df-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_en_el_df-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/pintores_de_casa_precio-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141342,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-1.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/pintores_de_casa_precio-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125574,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/pintura_de_edificios_df.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142429,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/pintura_de_edificios_df.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintura_de_edificios_df.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/pintura\/servicios-de-pinturas-para-casa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102841,
+		"inputAbbreviatedPath": "\/app\/img\/pintura\/servicios-de-pinturas-para-casa.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/pintura\/servicios-de-pinturas-para-casa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/recubrimientos-pintura.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -203,7 +357,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/signos\/anuncios-luminosos-para-tu-negocio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/signos\/empresa-de-impresion-digital.jpg": {
 		"fileType": 16384,
@@ -238,6 +392,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238066,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-1.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232758,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208789,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-3.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244753,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-4.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/signos\/fabricacion-de-anuncios-luminosos-precio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -269,7 +467,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/signos\/impresion-de-espectaculares.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/signos\/impresion-de-material-luminoso.jpg": {
 		"fileType": 16384,
@@ -280,7 +478,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/signos\/impresion-de-material-luminoso.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/signos\/impresion-digital-en-serie.jpg": {
 		"fileType": 16384,
@@ -313,7 +511,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/signos\/impresion-gran-formato-digital.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/signos\/marquesinas-con-iluminacion.jpg": {
 		"fileType": 16384,
@@ -359,6 +557,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/signos\/senalizacion-de-eventos-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290530,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-1.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/senalizacion-de-eventos-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274708,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/senalizacion-de-eventos-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300114,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-3.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/senalizacion-de-eventos-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329783,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-4.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-eventos-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/signos\/senalizacion-de-eventos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -369,6 +611,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/slider_arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4003,
+		"inputAbbreviatedPath": "\/app\/img\/slider_arrows.png",
+		"outputAbbreviatedPath": "\/app\/img\/slider_arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/view\/acerca-de-nosotros.html": {
 		"fileType": 8192,
@@ -409,15 +662,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/app\/view\/pintura.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/view\/pintura.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/app\/view\/pintura.jade": {
 		"compileDebug": 1,
@@ -612,6 +856,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,

@@ -9,9 +9,10 @@ section.main#signos
         p Cuenta con tecnología de última generación que le permite ofrecer impresión a gran escala, letras sueltas, fabricación de cajas de luz, y sublimación.
         p Tiene una planta de 3.000 metros cuadrados destinada a producir anuncios luminosos. Cuenta con distribución en el DF y toda la Repúbluca Mexicana.
 
-    +bgimg('signos/anuncios-luminosos-para-tu-negocio.jpg', 'c4 cm12')
+    +bgimg('signos/anuncios-luminosos-para-tu-negocio.jpg', 'c4 cm12')#anuncios-luminosos
   .container.fluid
     +bgimg('signos/fabrica-de-anuncios-luminosos-en-el-df.jpg', 'c')
+      .container.middle.center.inner.tac: .c: .subtitle.dark ANUNCIOS<br>LUMINOSOS
   .container.fluid.middle
     +bgimg('signos/espectaculares-luminosos-en-cdmx.jpg', 'c4 cm12')
     .c8.cm12
@@ -25,7 +26,7 @@ section.main#signos
         p Estos anuncios luminosos son comunes en materiales transparentes, la idea es que la luz LED ilumine hacia el frente y a los costados del anuncio.
         p Estos anuncios se fabrican con acrílico vinilo translucido, eso permite que los colores del diseño sean más vivos y nítidos.
 
-  .container.fluid.middle
+  .container.fluid.middle.fixedheight
     .c4.g.cm6
       p Gabinetes fabricados con materiales de la más alta calidad y distintos tipos de iluminación de alta duración.
 
@@ -39,9 +40,18 @@ section.main#signos
         li Banderas
         li Estructuras personalizadas 
 
-    +bgimg('signos/marquesinas-con-iluminacion.jpg', 'c4 cm12')
+    //+bgimg('signos/marquesinas-con-iluminacion.jpg', 'c4 cm12')
+    +masinfo
+
+
+    
   .container.fluid
-    +bgimg('signos/fabricacion-de-anuncios-luminosos-precio.jpg', 'c')
+    //+bgimg('signos/fabricacion-de-anuncios-luminosos-precio.jpg', 'c')
+    slick.c12(autplay="true")
+      div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-1.jpg", alt="Fabricación de anuncios luminosos").fluid
+      div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-2.jpg", alt="Fabricación de anuncios luminosos").fluid
+      div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-3.jpg", alt="Fabricación de anuncios luminosos").fluid
+      div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-4.jpg", alt="Fabricación de anuncios luminosos").fluid
   .container.fluid.middle
     +bgimg('signos/precios-de-anuncios-luminosos.jpg', 'c4 cm12')
     .c8.cm12
@@ -68,7 +78,6 @@ section.main#signos
         p Este producto terminado incluye 3 componentes principales:
         p Perfil extruido de alumino, la iluminación e impresión.
 
-    +bgimg('signos/impresion-de-material-luminoso.jpg', 'c4 cm12')
     .c4.cm12
       .container: .c10.o1
         p En el perfil extruido de aluminio contamos con 4 tipos, que ayudan a la iluminación de una vista y dos vistas.
@@ -76,38 +85,50 @@ section.main#signos
         p La Iluminación es personalizada de acuerdo al proyecto. Incluye tecnología led.
         br
         p Impresión realizada a travez UV y Tela Cam.
+    +bgimg('signos/impresion-de-material-luminoso.jpg', 'c4 cm12')
 
 
 
-
-  .container.fluid.middle
+  .container.fluid.middle#senalizacion
     +bgimg('signos/senalizacion-con-iluminacion.jpg', 'c8 ct6 cm12')
-    .c4.ct6.cm12
-      .container: .c10.o1
-        h3 SEÑALIZACIÓN
-        p Aplik se especializa en la fabricación de señalamientos. Cuanta con la infraestructura necesaria para la elaboración y colocación de los mismos en toda la República Mexicana. 
+      .container.bottom.center.inner.tar: .c: .subtitle SEÑALIZACIÓN
 
-  .container.fluid.middle
+    .c4.ct6.cm12
+      .container.fixedheight.bottom: .c10.o1
+        p.mb2 Aplik se especializa en la fabricación de señalamientos. Cuanta con la infraestructura necesaria para la elaboración y colocación de los mismos en toda la República Mexicana. 
+
+  slick.c12(autplay="true")
+    div: img(src="app/img/signos/senalizacion-de-eventos-1.jpg", alt="Señalización").fluid
+    div: img(src="app/img/signos/senalizacion-de-eventos-2.jpg", alt="Señalización").fluid
+    div: img(src="app/img/signos/senalizacion-de-eventos-3.jpg", alt="Señalización").fluid
+    div: img(src="app/img/signos/senalizacion-de-eventos-4.jpg", alt="Señalización").fluid
+      
+
+  .container.fluid.middle#infraestructura
     .c4.ct6.cm12
       .container: .c10.o1
-        h4 INFRAESTRUCTURA
         p Contamos con:
         p Dos Vuteks GS3250 Lx PRO
         p Acccu-beng
+        p HP DesignJet Z6800
+        p ARISTOMAT GL 2032-8
+        p 3000 Series
+        p Dobladora Hidráulica
+        p H1625 LED
 
 
     +bgimg('signos/senalizacion-de-eventos.jpg', 'c8 ct6 cm12')
+      .container.bottom.center.inner.tal: .c: .subtitle INFRAES<br>TRUCTURA
   .container.fluid
     +bgimg('signos/impresion-digital-para-eventos.jpg', 'c')
+  .container.fluid.middle#impresion-digital
+    +bgimg('signos/impresion-de-espectaculares.jpg', 'c12')
+      .container.bottom.center.inner.tal: .c: .subtitle IMPRESIÓN<br>DIGITAL
   .container.fluid.middle
-    .c4.ct6
-      .container: .c10.o1
-        h2 IMPRESIÓN <br>DIGITAL
-    +bgimg('signos/impresion-de-espectaculares.jpg', 'c8 ct6 cm12')
-  .container.fluid.middle
-    .c4.g.cm6
+    +masinfo
+    //.c4.g.cm6
       p Realizamos Impresión digital en gran formato, con un ancho de 3.20 m. en sustratos rígidos y flexibles como:
-    .c4.g.cm6
+    .c3.o1.g.cm6
       ul
         li Acrílico
         li Cartón
@@ -118,8 +139,6 @@ section.main#signos
         li Madera
         li Lámina de aluminio
         li Policarbonato 
-
-
 
     +bgimg('signos/fabricacion-de-anuncios-para-marcas.jpg', 'c4 cm12')
   .container.fluid
@@ -153,7 +172,7 @@ section.main#signos
 
 
   .container.fluid
-    .c4
-    +bgimg('signos/impresion-gran-formato-digital.jpg', 'c8 ct12 cm12')
+    +bgimg('signos/impresion-gran-formato-digital.jpg', 'c')
   .container.fluid
     +bgimg('signos/impresion-digital-en-serie.jpg', 'c')
+      .container.middle.center.inner.tac: .c: .subtitle Contáctanos

@@ -38,8 +38,9 @@ app.config(function($stateProvider, $urlRouterProvider){
 });
 
 
-app.run(function($rootScope){
+app.run(function($rootScope, $document){
   $rootScope.$on('$stateChangeStart', function(){
+    $document.scrollTop(0, 500);
     setTimeout(function(){
       window.sr = ScrollReveal({ reset: true });
       sr.reveal('.main h2, .main h3, .main h4');

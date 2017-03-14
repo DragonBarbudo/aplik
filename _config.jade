@@ -55,3 +55,17 @@ mixin appear-module(big, appear)
 
 mixin bgimg(img, clss)
   div(style="background-image:url('app/img/#{img}')" class="bgimg #{clss}")
+    if block
+      block
+
+
+mixin masinfo
+  .c4.darkbg
+    .container.middle.fixedheight
+      .c
+        h3.g ¿Requieres más información?
+        h2.w Contáctanos
+        h3.g Llámanos
+        h2.w 55 1341 9621
+        h3.g Escríbenos
+        p: a(href="mailto:Servicioalcliente@aplik.com.mx") servicioalcliente@aplik.com.mx
