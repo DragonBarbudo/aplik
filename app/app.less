@@ -14,7 +14,7 @@
 @dark: #003D52;
 /* FONTS */
 
-.font{ font-family: 'Robot', sans-serif; }
+.font{ font-family: 'Roboto', sans-serif; }
 
 
 
@@ -26,8 +26,121 @@ html, body{height: 100%;}
 
 body{
   .font;
-
 }
+
+
+.logo{
+  position: fixed;
+  width: 120px;
+  left: 40px; top: 40px;
+  z-index: 99;
+}
+
+
+
+
+.homeContainer{
+  height: 100%; width: 100%;
+  overflow: hidden;
+
+  .acerca-de-nosotrosBtn{
+    position: absolute;
+    left: 180px; top:70px;
+    z-index: 99;
+    color:@w;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.2em;
+    width:140px;;
+  }
+}
+nav.home{
+  height: 100%;
+  .sectionBtn{
+    position: relative;
+    color:@w;
+    .transition(.3s all);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    &:nth-child(1){ background-image: url(img/empresas-de-anuncios-luminosos.jpg); background-position: 20%; }
+    &:nth-child(2){ background-image: url(img/recubrimientos-pintura.jpg); }
+    &:nth-child(3){ background-image: url(img/cableado-estructurado.jpg); }
+    &:nth-child(4){ background-image: url(img/acerca-de-aplik.jpg); }
+    &:nth-child(5){ background-image: url(img/contacta-aplik.jpg); }
+    .text{
+      position: absolute;
+      top: 55%; left: 0;
+      width: 100%;
+      padding: 30px;
+      .box-sizing(box);
+      .title{
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 700;
+        .translateY(-10%);
+        .transition(transform .5s);
+        line-height: 1;
+      }
+      .sub{
+        overflow: hidden;
+        a{
+          display: block;
+          color:@w;
+          font-size: 1.2em;
+          font-weight: 300;
+          .translateY(300%);
+          .transition(transform .5s);
+
+        }
+      }
+    }
+    &.acercaBtn, &.contactoBtn{ flex-grow: .0001; }
+    &:hover{
+      .text{
+        .title{ .translateY(0%); .transition(transform .5s); }
+        .sub{   a{ .translateY(0%); .transition(transform .5s); } }
+      }
+    }
+    &.active{
+      flex-basis: 100%; .transition(.3s all);
+      .text{
+        //text-align: right;
+        .title{ font-size: 100px; .translateY(0%);   }
+        .sub{
+          a{
+            .translateY(0%); font-size: 1.4em;
+            &:hover{   padding-left: 10px;   .transition(padding-left .3s); }
+            &.tel{
+              font-weight: 400;
+              font-size: 3em;
+              color:@w;
+            }
+          }
+        }
+      }
+
+    }
+  }
+} // HOME
+
+.scrollIcon{
+  width: 36px; height: 54px;
+  background: url(img/scroll.png);
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  margin-left: -18px;
+  .floating;
+  z-index: 99;
+}
+
+
+
+
+
+
+
 
 
 nav.homemenu.container{
@@ -61,131 +174,6 @@ nav.homemenu.container{
 
 }
 
-.item{
-  height: 100%;
-  cursor: pointer;
-  background-position: center;
-  background-size: cover;
-  color:@w;
-  position: relative;
-  &:nth-child(1){ background-image: url(img/empresas-de-anuncios-luminosos.jpg); background-position: 20%; }
-  &:nth-child(2){ background-image: url(img/recubrimientos-pintura.jpg); }
-  &:nth-child(3){ background-image: url(img/cableado-estructurado.jpg); }
-  &:nth-child(4){ background-image: url(img/acerca-de-aplik.jpg); }
-  &.nosotros{
-    flex-grow: 0;
-    &.active{
-      flex-grow: 1;
-
-    }
-    .activeTitle{
-      height: 50%;
-      .appearEvent{
-        text-align: left;
-        line-height: 1.1em;
-      }
-    }
-  }
-  .transition(all .5s);
-
-  .activeTitle{
-    .opacity(0);
-    .transition(0.3s all);
-    font-weight: bold;
-      font-size: 4.8em;
-      position: absolute;
-      bottom: 10%;
-      left: 10%;
-      right: 10%;
-      text-transform: uppercase;
-    .appearEvent{
-      overflow: hidden;
-      text-align: right;
-      p{
-        .translateY(150%);
-        .transition(.4s all);
-        &.small{
-          font-size: 0.3em;
-          line-height: 1.1em;
-          font-weight: 300;
-          text-transform: capitalize;
-        }
-      }
-    }
-    .scroll{
-      width: 36px; height: 54px;
-      background: url(img/scroll.png);
-      position: absolute;
-      left: 50%;
-      bottom: 1%;
-      margin-left: -18px;
-      .floating;
-    }
-
-  }
-
-
-
-  .appear-module{
-    position: absolute;
-    bottom: 2%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    .opacity(1);
-      .transition(0.3s all 1s);
-  }
-  .big{
-    font-weight: bold;
-    margin-bottom: 20px;
-    font-size: 3em;
-    line-height: 1.2;
-    text-transform: uppercase;
-  }
-  p{
-    font-size: 1.2em;
-    margin: 10px 0;
-  }
-
-  &:hover{
-    .appear{
-      margin-bottom: 10%;
-      .transition(0.4s all);
-      *{
-        .translateY(0);
-        .transition(0.4s all);
-      }
-    }
-  }
-
-  &.active{
-      flex-basis: 100%;
-      .transition(.3s all);
-      height: 100%;
-    .appear-module{
-      .opacity(0);
-      .transition(0.3s all);
-    }
-    .activeTitle{
-      .opacity(1); .transition(0.4s all);
-      .appearEvent{
-        p{
-          .translateY(0);
-          .transition(.5s all 1s);
-
-        }
-      }
-    }
-  }
-
-  @media @mobile{
-    .c12;
-    height: 33%;
-    .transition(.3s all);
-  }
-
-
-}
 
 
 .gobackBtn{
@@ -194,25 +182,12 @@ nav.homemenu.container{
   left: 40px;
   top: 50%;
   font-size: 4em;
+  z-index: 99;
   &.hidden{
     display: none;
   }
 }
 
-
-
-.appear-module{
-  .appear{
-    margin-top: -10%; margin-bottom: -1%;
-    .transition(0.6s all);
-    overflow: hidden;
-    font-weight: 300;
-    *{
-      .translateY(120%);
-      .transition(0.6s all);
-    }
-  }
-}
 
 .main{
   h2, h3, h4{
@@ -253,6 +228,7 @@ nav.homemenu.container{
 }
 
 .bgimg{
+  position: relative;
   background-size: cover;
   background-position: center;
   height: 788px;
@@ -261,6 +237,27 @@ nav.homemenu.container{
   }
 }
 
+
+.backToTopBtn{
+  position: fixed;
+  bottom: 40px; right: 40px;
+  z-index: 101;
+  width: 60px; height: 60px;
+  .border-radius(50%);
+  background: #EBEBEB;
+  cursor: pointer;
+  text-align: center;
+  .opacity(0);
+  .transition(all .3s);
+  i{
+    font-size: 2em;
+    margin-top: 13px;
+  }
+  &.active{
+    .opacity(1);
+    .transition(all .3s);
+  }
+}
 
 
 .mainmenu{
@@ -272,6 +269,7 @@ nav.homemenu.container{
     width: 60px; height: 60px;
     .border-radius(50%);
     background: #EBEBEB;
+    cursor: pointer;
     span{
       position: absolute;
       left: 12px;
@@ -330,7 +328,25 @@ nav.homemenu.container{
       font-weight: 700;
       text-transform: uppercase;
       font-size: 3em;
-      display: block;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+
+      &:after{
+        content:"";
+        width: 0%;
+        height: 2px;
+        background: @w;
+        display: block;
+        margin: -10px auto 20px auto;
+        .transition(width .3s);
+      }
+      &:hover{
+        &:after{
+          width: 100%;
+          .transition(width .3s);
+        }
+      }
     }
   }
 }
@@ -344,7 +360,12 @@ nav.homemenu.container{
   line-height: 1;
   color:@w;
   padding: 40px;
-  text-shadow: 0 0 10px fade(@b, 50%);
+  //text-shadow: 0 0 10px fade(@b, 50%);
+  small{
+    font-size: 0.5em;
+    display: block;
+    line-height:1.3em;
+  }
 }
 .darkbg{
   background: @dark;
@@ -362,6 +383,25 @@ nav.homemenu.container{
 .b{color:@b !important;}
 
 
+.prevPage, .nextPage{
+  display: block;
+  width: 100px; height: 76px;
+  background-image: url(img/slider_arrows.png);
+  background-size: 200px;
+  .floatingH;
+  margin: 0 auto;
+  &.prevPage{
+    background-position: left;
+  }
+  &.nextPage{
+    background-position: right;
+  }
+}
+
+
+.slick-slide{
+  background-size: cover;
+}
 .slick-arrow{
   text-indent: -99999px;
   position: absolute;
@@ -369,8 +409,10 @@ nav.homemenu.container{
   margin-top: -38px;
 
   &.slick-prev, &.slick-next{
-    width: 99px; height: 76px;
+    width: 100px; height: 76px;
     background-image: url(img/slider_arrows.png);
+    background-size: 200px;
+    .floatingH;
   }
   &.slick-prev{
     left: 46px;
@@ -382,4 +424,18 @@ nav.homemenu.container{
   }
   cursor:pointer;
   &:focus{outline:none;}
+}
+
+
+
+.subtitleFooter{
+  padding: 30px;
+  margin-top: 50%;
+  h4{
+    font-size: 3em;
+  }
+  h4,p{
+    color:@w;
+    padding-bottom: 10px;
+  }
 }

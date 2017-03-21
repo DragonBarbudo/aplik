@@ -10,9 +10,9 @@ var app = angular.module('dw4', [
   'ui.router'
 ]);
 
-app.config(function($stateProvider, $urlRouterProvider){
+app.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
-  $urlRouterProvider.otherwise('/inicio');
+
   $stateProvider
     .state('inicio', {
       url: '/inicio'
@@ -32,24 +32,33 @@ app.config(function($stateProvider, $urlRouterProvider){
     .state('acerca-de-nosotros', {
       url: '/acerca-de-nosotros',
       templateUrl: 'app/view/acerca-de-nosotros.html'
+    })
+    .state('contacto', {
+      url: '/contacto',
+      templateUrl: 'app/view/contacto.html'
     });
+
+    $urlRouterProvider.otherwise('/inicio');
+
+    //$locationProvider.html5Mode(true).hashPrefix('!')
+
+
 
 
 });
 
 
 app.run(function($rootScope, $document){
-  $rootScope.$on('$stateChangeStart', function(){
+  $rootScope.$on('$stateChangeStart', function(event, toState){
     $document.scrollTop(0, 500);
     setTimeout(function(){
       window.sr = ScrollReveal({ reset: true });
       sr.reveal('.main h2, .main h3, .main h4');
-      sr.reveal(' .main p', 20);
-      sr.reveal(' .main ul', 50);
+      sr.reveal(' .main p');
+      sr.reveal(' .main ul');
     }, 1000);
-
-      $('.mainmenubtn').removeClass('active');
-      $('.mainmenuview').hide();
+    $('.mainmenubtn').removeClass('active');
+    $('.mainmenuview').hide();
 
   });
 
@@ -59,31 +68,51 @@ app.run(function($rootScope, $document){
   });
 
 
+
+
+
+});
+
+
+app.controller('MainCtrl', function($scope, $state, $rootScope, $document){
+  $scope.toState;
+  $scope.scrollToTop = $rootScope.scrollToTop;
+
+
+  $scope.$on('$stateChangeStart', function(event, toState){
+    $scope.toState = toState.name;
+  });
+
+  $document.on('scroll', function() {
+    if($document.scrollTop() > 800 && !$('.backToTopBtn').is('.active')){
+      $('.backToTopBtn').addClass('active');
+    } else if($document.scrollTop()<800 && $('.backToTopBtn').is('.active')) {
+      $('.backToTopBtn').removeClass('active');
+    }
+  });
+
+  //GotToTop
+  $scope.goUp = function(){ $document.scrollTopAnimated(0); }
+
+
 });
 
 
-app.controller('MainCtrl', function($scope){
 
-  $scope.page = "";
-  $scope.activate = function(page){
-    $scope.page=page;
-  }
-
-});
 
 app.controller('FormCtrl', function($scope, $http){
   $scope.sent = false;
   $scope.submitForm = function(e){
-    console.log(e.target);
+    //console.log(e.target);
     var datos = $(e.target).serialize();
     $scope.form = {};
     $http({
       method: 'GET',
       url: 'http://www.dragonbarbudo.com/api/email.php?'+datos
     }).then(function(result){
-      console.log('http://www.dragonbarbudo.com/api/email.php?'+datos);
+      //console.log('http://www.dragonbarbudo.com/api/email.php?'+datos);
       if(result.data=="1"){
-        console.log('done');
+        //console.log('done');
         $scope.sent = true;
       }
     });

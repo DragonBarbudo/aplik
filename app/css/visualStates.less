@@ -37,6 +37,26 @@
 }
 
 
+@-webkit-keyframes floatingH{
+    0%{
+        .transform(translate(-20px,0px));
+    }
+    50%{
+        .transform(translate(20px,0));
+    }
+    100%{
+       .transform(translate(-20px,0px));
+    }
+}
+.floatingH {
+  -webkit-animation-name: floatingH;
+  -webkit-animation-duration: 2s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+
 
 
 

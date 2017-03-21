@@ -74,10 +74,6 @@ section.main#signos
   .container.fluid.fixedheight
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 ACRÍLICO
-      p.mt2 Existen diferentes tipos de acrílicos de 10 años, de 5 años y de 3 años.
-      p.mt2 <strong>10 años:</strong> El porcentaje de resina mayor al 50% además de un contenido bajo de carbonatos proporciona a este impermeabilizante una duración a la intemperie superior a 10 años.
-      p.mt2 <strong>5 años:</strong> Contenido de resina de 46% y nivel medio de contenido de caolines y carbonato.
-      p.mt2 <strong>3 años:</strong> Porcentaje de resina del 40% con una mezcla de carbonatos que proporcionan un excelente desempeño a un costo accesible.
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 PREFABRICADO
       p.mt2 Alta resistencia, durabilidad y resistencia a esfuerzos mecánicos. (Sistema impermeable completo en un solo producto).
@@ -94,6 +90,9 @@ section.main#signos
   
   .container.fluid.middle#impermeabilizantes
     +bgimg('pintura/aplicadores.jpg', 'c')
-      .container.middle.center.inner.tac: .c
-        p Si deseas mantenimiento preventivo en tu hogar u oficina<br>Aplicadores es la mejor opción.
-        img(src="app/img/pintura/aplicadores.png", alt="Aplicadores").mt2
+      .container.middle.center.inner.tac
+        .c2.tac: a(ui-sref="signos").prevPage
+        .c
+          p Si deseas mantenimiento preventivo en tu hogar u oficina<br>Aplicadores es la mejor opción.
+          img(src="app/img/pintura/aplicadores.png", alt="Aplicadores").mt2
+        .c2.tac: a(ui-sref="electrico").nextPage

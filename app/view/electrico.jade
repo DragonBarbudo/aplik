@@ -1,1 +1,37 @@
-p electrico
+include ../../_config.jade
+
+section.main#electrico
+  .container.fluid.middle#voz-y-datos
+    +bgimg('electrico/cableado-estructurado-empresas.jpg', 'c')
+      .container.middle.center.inner.tac: .c: .subtitle VOZ Y DATOS
+      
+  
+  .container.fluid.fixedheight
+    .c4.g.mt2.cm12: .container.middle.fixedheight: .c10.o1
+      h3.mt2 CARACTERÍSTICAS<br>DEL CABLEDO<br>ESTRUCTURADO
+    .c4.g.mt2.cm12: .container: .c10.o1
+      h3.mt2 CAPACIDAD
+      p.mt2 Permite transmitir información de múltiples protocolos y tecnologías.
+      h3.mt2 FLEXIBILIDAD
+      p.mt2 Incorpora nuevos o futuros servicios a la red ya existente. Modifica la distribución interna sin afectar el nivel de eficiencia.
+      h3.mt2 DISEÑO
+      p.mt2 Optimiza la productividad al mínimo costo posible. Además, en la práctica ha demostrado requerir hasta un 50% de espacio menor al cableado tradicional.
+    .c4.g.mt2.cm12: .container: .c10.o1
+      h3.mt2 ADMINISTRACIÓN
+      p.mt2 Facilita al cliente el manejo y la administración de los servicios conectados.
+      h3.mt2 INTEGRACIÓN DE SERVICIOS
+      p.mt2 Reúne en una misma infraestructura los servicios de datos, telefónico, audio y vídeo, seguridad, etc.
+      h3.mt2 COMPATIBILIDAD
+      p.mt2 Cumple con los estándares internacionales de las industrias.
+
+  .container.fluid.middle#voz-y-datos
+    +masinfo
+    +bgimg('electrico/cableado-estructurado.jpg', 'c8 cm12')
+    
+
+  .container.fluid
+    +bgimg('electrico/servicio-de-voz-y-datos.jpg', 'c')
+      .container.middle.center.inner.tac
+        .c2.tac: a(ui-sref="pintura").prevPage
+        .c: .subtitle TE ASESORAMOS<br>EN LA INSTALACIÓN 
+        .c2.tac

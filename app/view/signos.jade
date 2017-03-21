@@ -13,6 +13,7 @@ section.main#signos
   .container.fluid
     +bgimg('signos/fabrica-de-anuncios-luminosos-en-el-df.jpg', 'c')
       .container.middle.center.inner.tac: .c: .subtitle.dark ANUNCIOS<br>LUMINOSOS
+      .scrollIcon
   .container.fluid.middle
     +bgimg('signos/espectaculares-luminosos-en-cdmx.jpg', 'c4 cm12')
     .c8.cm12
@@ -52,6 +53,7 @@ section.main#signos
       div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-2.jpg", alt="Fabricación de anuncios luminosos").fluid
       div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-3.jpg", alt="Fabricación de anuncios luminosos").fluid
       div: img(src="app/img/signos/fabricacion-de-anuncios-luminosos-precio-4.jpg", alt="Fabricación de anuncios luminosos").fluid
+      
   .container.fluid.middle
     +bgimg('signos/precios-de-anuncios-luminosos.jpg', 'c4 cm12')
     .c8.cm12
@@ -175,4 +177,7 @@ section.main#signos
     +bgimg('signos/impresion-gran-formato-digital.jpg', 'c')
   .container.fluid
     +bgimg('signos/impresion-digital-en-serie.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle Contáctanos
+      .container.middle.center.inner.tac
+        .c2
+        .c: .subtitle(ui-sref="contacto") CONTÁCTANOS
+        .c2.tac: a(ui-sref="pintura").nextPage

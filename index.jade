@@ -2,8 +2,16 @@ include _config.jade
 
 +html5
   +head('Apli.k', '', '')
+  //base(href="/")
   
   body(ng-app="dw4")
+  
+    
+    
+    h1.logo
+      img(src="app/img/aplik.png", alt="Apli.k").fluid
+    
+  
     
     nav.mainmenu
       .mainmenubtn
@@ -15,14 +23,58 @@ include _config.jade
           .c
             .tac
               a(ui-sref="signos") SIGNOS
+              br
               a(ui-sref="pintura") PINTURA
+              br
               a(ui-sref="electrico") ELÉCTRICO
+              br
               a(ui-sref="contacto") CONTACTO
+    
+    
+    
+    div(ng-controller="MainCtrl").homeContainer
+      div.backToTopBtn(ng-click="goUp()")
+        i.fa.fa-chevron-up
+        p {{scrollToTop}}
+      a(ui-sref="acerca-de-nosotros" ng-hide="toState=='acerca-de-nosotros'").acerca-de-nosotrosBtn
+        | Acerca de nosotros
+      div(ng-if="toState!='inicio'").scrollIcon
+      a(ui-sref="inicio" ui-sref-active="hidden").gobackBtn.fa.fa-angle-left
+      nav.home.container.fluid
+        .c.sectionBtn(ui-sref="signos" ui-sref-active="active")
+          .text
+            .title Signos
+            .sub
+              a(href="#anuncios-luminosos" du-smooth-scroll) Anuncios luminosos
+              a(href="#senalizacion" du-smooth-scroll) Señalización
+              a(href="#impresion-digital" du-smooth-scroll) Impresión digital
+        .c.sectionBtn(ui-sref="pintura" ui-sref-active="active")
+          .text
+            .title Pintura
+            .sub
+              a(href="#recubrimientos" du-smooth-scroll) Recubrimientos
+              a(href="#home-solutions" du-smooth-scroll) Home Solutions
+        .c.sectionBtn(ui-sref="electrico" ui-sref-active="active")
+          .text
+            .title Eléctrico
+            .sub
+              a(href="#voz-y-datos" du-smooth-scroll) Voz y Datos
+        .c.sectionBtn.acercaBtn(ui-sref="acerca-de-nosotros" ui-sref-active="active")
+          .text
+            .title Acerca de <br>Nosotros
+        .c.sectionBtn.contactoBtn(ui-sref="contacto" ui-sref-active="active")
+          .text
+            .title Contacto
+            .sub: a(href="tel:5513419621").tel 55 1341 9621
+      
+    
+      
+    
+    
         
       
     
-    nav.homemenu.container(ng-controller="MainCtrl").fluid
-      
+    //nav.homemenu.container(ng-controller="MainCtrl").fluid
       a.item.c(ui-sref-active="active" ui-sref="signos")
         .activeTitle
           .appearEvent
