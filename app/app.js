@@ -52,10 +52,17 @@ app.run(function($rootScope, $document){
   $rootScope.$on('$stateChangeStart', function(event, toState){
     $document.scrollTop(0, 500);
     setTimeout(function(){
-      window.sr = ScrollReveal({ reset: true });
-      sr.reveal('.main h2, .main h3, .main h4');
-      sr.reveal(' .main p');
-      sr.reveal(' .main ul');
+      if($('.main h2').length>0 || ('.main h3').length>0 || ('.main h4').length>0){
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.main h2');
+        sr.reveal('.main h3');
+        sr.reveal('.main h4')
+        sr.reveal('.main p');
+        sr.reveal('.main ul');
+        sr.reveal('.subtitle .left', {origin:'left', distance: '200px', duration: 1000});
+        sr.reveal('.subtitle .right', {origin:'right', distance: '200px', duration: 1000});
+        sr.reveal('.ourclients .c');
+      }
     }, 1000);
     $('.mainmenubtn').removeClass('active');
     $('.mainmenuview').hide();

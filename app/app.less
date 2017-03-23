@@ -12,6 +12,7 @@
 @main:    #ffdd00;
 @sec:     #068CA9;
 @dark: #003D52;
+@third : #E7004C;
 /* FONTS */
 
 .font{ font-family: 'Roboto', sans-serif; }
@@ -34,6 +35,7 @@ body{
   width: 120px;
   left: 40px; top: 40px;
   z-index: 99;
+  cursor: pointer;
 }
 
 
@@ -225,6 +227,9 @@ nav.homemenu.container{
 
 .fixedheight{
   min-height: 788px;
+  &.halfheight{
+    min-height: 520px;
+  }
 }
 
 .bgimg{
@@ -250,12 +255,20 @@ nav.homemenu.container{
   .opacity(0);
   .transition(all .3s);
   i{
+    color:@b;
     font-size: 2em;
     margin-top: 13px;
   }
   &.active{
     .opacity(1);
     .transition(all .3s);
+  }
+  &:hover{
+      background: @third;
+      .box-shadow(0 0 10px @b);
+      i{
+        color:@w;
+      }
   }
 }
 
@@ -311,6 +324,11 @@ nav.homemenu.container{
         }
       }
     }
+    &:hover{
+      background: @third;
+      .box-shadow(0 0 10px @b);
+      span{ background:@w; }
+    }
   }
   .mainmenuview{
     display: none;
@@ -365,6 +383,9 @@ nav.homemenu.container{
     font-size: 0.5em;
     display: block;
     line-height:1.3em;
+  }
+  span{
+    display: block;
   }
 }
 .darkbg{

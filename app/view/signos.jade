@@ -8,11 +8,13 @@ section.main#signos
         p Aplik Signos se especializa en señalización. 
         p Cuenta con tecnología de última generación que le permite ofrecer impresión a gran escala, letras sueltas, fabricación de cajas de luz, y sublimación.
         p Tiene una planta de 3.000 metros cuadrados destinada a producir anuncios luminosos. Cuenta con distribución en el DF y toda la Repúbluca Mexicana.
-
-    +bgimg('signos/anuncios-luminosos-para-tu-negocio.jpg', 'c4 cm12')#anuncios-luminosos
-  .container.fluid
+  
+    +bgimg('signos/anuncios-luminosos-para-tu-negocio.jpg', 'c4 cm12')
+  .container.fluid#anuncios-luminosos
     +bgimg('signos/fabrica-de-anuncios-luminosos-en-el-df.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle.dark ANUNCIOS<br>LUMINOSOS
+      .container.middle.center.inner.tac: .c: .subtitle.dark 
+        span.left ANUNCIOS
+        span.right LUMINOSOS
       .scrollIcon
   .container.fluid.middle
     +bgimg('signos/espectaculares-luminosos-en-cdmx.jpg', 'c4 cm12')
@@ -93,7 +95,7 @@ section.main#signos
 
   .container.fluid.middle#senalizacion
     +bgimg('signos/senalizacion-con-iluminacion.jpg', 'c8 ct6 cm12')
-      .container.bottom.center.inner.tar: .c: .subtitle SEÑALIZACIÓN
+      .container.bottom.center.inner.tar: .c: .subtitle: span.left SEÑALIZACIÓN
 
     .c4.ct6.cm12
       .container.fixedheight.bottom: .c10.o1
@@ -120,12 +122,17 @@ section.main#signos
 
 
     +bgimg('signos/senalizacion-de-eventos.jpg', 'c8 ct6 cm12')
-      .container.bottom.center.inner.tal: .c: .subtitle INFRAES<br>TRUCTURA
+      .container.bottom.center.inner.tal: .c: .subtitle
+        span.left INFRAES
+        span.right TRUCTURA
   .container.fluid
     +bgimg('signos/impresion-digital-para-eventos.jpg', 'c')
+      .scrollIcon
   .container.fluid.middle#impresion-digital
     +bgimg('signos/impresion-de-espectaculares.jpg', 'c12')
-      .container.bottom.center.inner.tal: .c: .subtitle IMPRESIÓN<br>DIGITAL
+      .container.bottom.center.inner.tal: .c: .subtitle
+        span.left IMPRESIÓN
+        span.right DIGITAL
   .container.fluid.middle
     +masinfo
     //.c4.g.cm6
@@ -145,6 +152,7 @@ section.main#signos
     +bgimg('signos/fabricacion-de-anuncios-para-marcas.jpg', 'c4 cm12')
   .container.fluid
     +bgimg('signos/empresa-de-impresion-digital.jpg', 'c')
+      .scrollIcon
   .container.fluid.middle.fixedheight
     .c4.g.cm12
       h4 Impresión Digital <br>en flexibles:
@@ -175,9 +183,10 @@ section.main#signos
 
   .container.fluid
     +bgimg('signos/impresion-gran-formato-digital.jpg', 'c')
+      .scrollIcon
   .container.fluid
     +bgimg('signos/impresion-digital-en-serie.jpg', 'c')
       .container.middle.center.inner.tac
         .c2
-        .c: .subtitle(ui-sref="contacto") CONTÁCTANOS
+        .c: .subtitle(ui-sref="contacto"): span.left CONTÁCTANOS
         .c2.tac: a(ui-sref="pintura").nextPage

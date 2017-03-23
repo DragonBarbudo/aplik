@@ -3,7 +3,7 @@ include ../../_config.jade
 section.main#signos
   .container.fluid.middle#recubrimientos
     +bgimg('pintura/empresas_de_mantenimiento_recubrimientos.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle RECUBRIMIENTOS
+      .container.middle.center.inner.tac: .c: .subtitle: span.left RECUBRIMIENTOS
       
   .container.fluid.middle
     +bgimg('pintura/servicios-de-pinturas-para-casa.jpg', 'c4 cm12')
@@ -12,7 +12,7 @@ section.main#signos
         p La clasificación de los recubrimientos se establece considerando el tipo de resina usada en la fabricación de los mismos. Dado que la resistencia del recubrimiento y por lo tanto su eficiencia de protección contra la corrosión dependen esencialmente de las características y propiedades de los componentes de la película seca, representados por la resina y el pigmento, con frecuencia se asocia o establece un cierto grado de calidad o eficiencia de protección con el tipo de resina utilizado, por ejemplo; al mencionar recubrimientos alquidalicos y epóxicos, inmediatamente se acepta que el primero es menos resistente a medios corrosivos que el segundo. 
 
 
-  .container.fluid.fixedheight
+  .container.fluid.fixedheight.halfheight
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 RECUBRIMIENTOS ALQUIDALICOS
       p.mt2 Es un recubrimiento económico, con buena retención de brillo y resistencia a medios ambientes secos o húmedos sin salinidad o gases corrosivos; presenta buena adherencia, poder de humectación y tolera cierto grado de impurezas en la superficie por lo que con frecuencia es suficiente con una limpieza manual. Seca por evaporación de solventes e interacción con el aire.
@@ -32,7 +32,7 @@ section.main#signos
   
   .container.fluid.middle#home-solutions
     +bgimg('pintura/pintura_de_edificios_df.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle HOME<br>SOLUTIONS
+      .container.middle.center.inner.tac: .c: .subtitle: span.right HOME<br>SOLUTIONS
 
 
   .container.fluid.middle
@@ -40,10 +40,10 @@ section.main#signos
       .container: .c10.o1
         p Existen varios tipos de pinturas o revestimientos para fachadas y exteriores, dependiendo de la empresa de mantenimiento y pintura, presupuesto disponible, el tipo de revestimiento deseado y la durabilidad se puede elegir entre gran variedad de marcas y tipos.
     +bgimg('pintura/servicios-de-pinturas-para-casa.jpg', 'c8 cm12')
-      .container.bottom.center.inner.tac: .c: .subtitle PINTURA
+      .container.bottom.center.inner.tac: .c: .subtitle: span.left PINTURA
 
 
-  .container.fluid.fixedheight
+  .container.fluid.fixedheight.halfheight
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 PINTURA PLÁSTICA
       p.mt2 Formulada a base de resinas estireno-acrílicas en dispersión acuosa: con gran adherencia y lavables.
@@ -68,12 +68,17 @@ section.main#signos
 
   .container.fluid.middle#impermeabilizantes
     +bgimg('pintura/empresas_que_pintan_casas.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle IMPERMEABILIZANTES
+      .container.middle.center.inner.tac: .c: .subtitle: span.right IMPERMEABILIZANTES
 
   
   .container.fluid.fixedheight
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 ACRÍLICO
+      p.mt2 Existen diferentes tipos de acrílicos de 10 años, de 5 años y de 3 años. 
+      p.mt2 <strong>10 años.</strong> El porcentaje de resina mayor al 50% además de un contenido bajo de carbonatos proporciona a este impermeabilizante una duración a la intemperie superior a 10 años.
+      p.mt2 <strong>5 años.</strong> Contenido de resina de 46% y nivel medio de contenido de caolines y carbonato.
+      p.mt2 <strong>3 años.</strong> Porcentaje de resina del 40% con una mezcla de carbonatos que proporcionan un excelente desempeño a un costo accesible.
+
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 PREFABRICADO
       p.mt2 Alta resistencia, durabilidad y resistencia a esfuerzos mecánicos. (Sistema impermeable completo en un solo producto).
@@ -85,7 +90,7 @@ section.main#signos
 
   .container.fluid
     slick.c12(autplay="true")
-      div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_en_el_df-1.jpg)")
+      //div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_en_el_df-1.jpg)")
       div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_en_el_df-2.jpg)")
   
   .container.fluid.middle#impermeabilizantes
@@ -94,5 +99,5 @@ section.main#signos
         .c2.tac: a(ui-sref="signos").prevPage
         .c
           p Si deseas mantenimiento preventivo en tu hogar u oficina<br>Aplicadores es la mejor opción.
-          img(src="app/img/pintura/aplicadores.png", alt="Aplicadores").mt2
+          a(href="http://aplicadores.com.mx/index.php" target="_blank"): img(src="app/img/pintura/aplicadores.png", alt="Aplicadores").mt2
         .c2.tac: a(ui-sref="electrico").nextPage

@@ -3,7 +3,7 @@ include ../../_config.jade
 section.main#electrico
   .container.fluid.middle#voz-y-datos
     +bgimg('electrico/cableado-estructurado-empresas.jpg', 'c')
-      .container.middle.center.inner.tac: .c: .subtitle VOZ Y DATOS
+      .container.middle.center.inner.tac: .c: .subtitle: span.right VOZ Y DATOS
       
   
   .container.fluid.fixedheight
@@ -33,5 +33,7 @@ section.main#electrico
     +bgimg('electrico/servicio-de-voz-y-datos.jpg', 'c')
       .container.middle.center.inner.tac
         .c2.tac: a(ui-sref="pintura").prevPage
-        .c: .subtitle TE ASESORAMOS<br>EN LA INSTALACIÓN 
+        .c: .subtitle
+          span.left TE ASESORAMOS
+          span.right EN LA INSTALACIÓN 
         .c2.tac
