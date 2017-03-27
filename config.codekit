@@ -216,6 +216,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/contacto\/bodegas-la-negrita-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11690,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/bodegas-la-negrita-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/bodegas-la-negrita-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/contacto\/dominos-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27944,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/dominos-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/dominos-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/contacto\/exa-live-aplik.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -259,6 +281,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/contacto\/hidrosina-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25951,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/hidrosina-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/hidrosina-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/contacto\/laddu-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12363,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/laddu-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/laddu-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/contacto\/little-caesars-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26718,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/little-caesars-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/little-caesars-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/img\/contacto\/los-almendros-aplik.png": {
 		"fileType": 32768,
@@ -315,6 +370,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/contacto\/starbucks-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35588,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/starbucks-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/starbucks-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/contacto\/television-azteca-aplik.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -336,6 +402,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/contacto\/vips-aplik.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20899,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/vips-aplik.png",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/vips-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/img\/contacto\/wings-aplik.png": {
 		"fileType": 32768,
@@ -522,7 +599,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/pintura\/pintores_de_casa_precio-2.jpg": {
 		"fileType": 16384,
@@ -533,7 +610,7 @@
 		"outputAbbreviatedPath": "\/app\/img\/pintura\/pintores_de_casa_precio-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/img\/pintura\/pintura_de_edificios_df.jpg": {
 		"fileType": 16384,
@@ -874,6 +951,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/app\/view\/contacto.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/view\/contacto.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/view\/contacto.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -884,15 +970,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/app\/view\/electrico.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/view\/electrico.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/app\/view\/electrico.jade": {
 		"compileDebug": 1,

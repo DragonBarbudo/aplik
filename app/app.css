@@ -1574,6 +1574,11 @@ body {
 }
 body {
   font-family: 'Roboto', sans-serif;
+  /*
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+*/
 }
 .logo {
   position: fixed;
@@ -1818,6 +1823,10 @@ nav.homemenu.container .logo.hidden {
   font-size: 1.1em;
   font-weight: 300;
 }
+.main ol {
+  padding: 10px 20px;
+  list-style-position: inside;
+}
 .main ul {
   color: #959594;
   list-style: none;
@@ -2018,8 +2027,8 @@ nav.homemenu.container .logo.hidden {
   text-transform: uppercase;
   font-size: 3em;
   display: inline-block;
-  position: relative;
   text-align: center;
+  position: relative;
 }
 .mainmenu .mainmenuview a:after {
   content: "";
@@ -2034,6 +2043,28 @@ nav.homemenu.container .logo.hidden {
   transition: width 0.3s;
 }
 .mainmenu .mainmenuview a:hover:after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.underlineFX {
+  position: relative;
+}
+.underlineFX:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f5f5f5;
+  display: block;
+  margin: -10px auto 20px auto;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+.underlineFX:hover:after {
   width: 100%;
   -webkit-transition: width 0.3s;
   -moz-transition: width 0.3s;
@@ -2151,4 +2182,35 @@ nav.homemenu.container .logo.hidden {
 .subtitleFooter p {
   color: #f5f5f5;
   padding-bottom: 10px;
+}
+.ourclients img {
+  max-width: 160px;
+  max-height: 130px;
+}
+h2.w.contac {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+h2.w.contac:after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f5f5f5;
+  display: block;
+  margin: -10px auto 20px auto;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+h2.w.contac:hover:after {
+  width: 100%;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+h2.w.contac:after {
+  margin: 10px auto 20px auto;
 }
