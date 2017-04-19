@@ -9,10 +9,13 @@ section.main#signos
     +bgimg('pintura/empresas_de_mantenimiento_y_limpieza.jpg', 'c4 cm12')
     .c8.cm12
       .container: .c10.o1
-        p La clasificación de los recubrimientos se establece considerando el tipo de resina usada en la fabricación de los mismos. Dado que la resistencia del recubrimiento y por lo tanto su eficiencia de protección contra la corrosión dependen esencialmente de las características y propiedades de los componentes de la película seca, representados por la resina y el pigmento, con frecuencia se asocia o establece un cierto grado de calidad o eficiencia de protección con el tipo de resina utilizado, por ejemplo; al mencionar recubrimientos alquidalicos y epóxicos, inmediatamente se acepta que el primero es menos resistente a medios corrosivos que el segundo. 
+        //p La clasificación de los recubrimientos se establece considerando el tipo de resina usada en la fabricación de los mismos. Dado que la resistencia del recubrimiento y por lo tanto su eficiencia de protección contra la corrosión dependen esencialmente de las características y propiedades de los componentes de la película seca, representados por la resina y el pigmento, con frecuencia se asocia o establece un cierto grado de calidad o eficiencia de protección con el tipo de resina utilizado, por ejemplo; al mencionar recubrimientos alquidalicos y epóxicos, inmediatamente se acepta que el primero es menos resistente a medios corrosivos que el segundo. 
+        h3 Realizamos cualquier trabajo de<br>mantenimiento preventivo y<br>correctivo a nivel nacional<br>referente a pintura,<br>impermeabilizante y<br>recubrimientos especiales.
 
 
-  .container.fluid.fixedheight.halfheight
+
+
+  //.container.fluid.fixedheight.halfheight
     .c4.g.mt2.cm12: .container: .c10.o1
       h3.mt2 RECUBRIMIENTOS ALQUIDALICOS
       p.mt2 Es un recubrimiento económico, con buena retención de brillo y resistencia a medios ambientes secos o húmedos sin salinidad o gases corrosivos; presenta buena adherencia, poder de humectación y tolera cierto grado de impurezas en la superficie por lo que con frecuencia es suficiente con una limpieza manual. Seca por evaporación de solventes e interacción con el aire.
@@ -24,7 +27,7 @@ section.main#signos
       p.mt2 En términos generales el nivel de adherencia, dureza, flexibilidad y resistencia a los medios corrosivos de los recubrimientos epoxicos no han sido superados por ningún otro tipo de los recubrimientos actuales. Puede aplicarse sobre superficies de concreto, metálicas, galvanizadas o inorgánico de zinc; presenta una excepcional resistencia a medios alcalinos y buena resistencia a los medios ácidos.
   
   .container.fluid
-    slick.c12(autplay="true")
+    slick.c12(autoplay="true")
       div: img(src="app/img/pintura/empresas_de_mantenimiento_industrial-1.jpg", alt="Señalización").fluid
       div: img(src="app/img/pintura/empresas_de_mantenimiento_industrial-2.jpg", alt="Señalización").fluid
       div: img(src="app/img/pintura/empresas_de_mantenimiento_industrial-3.jpg", alt="Señalización").fluid
@@ -58,8 +61,8 @@ section.main#signos
 
 
 
-  .container.fluid
-    slick.c8(autplay="true")
+  //.container.fluid
+    slick.c8(autoplay="true")
       div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_precio-1.jpg)")
       div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_precio-2.jpg)")
     +masinfo
@@ -88,8 +91,8 @@ section.main#signos
       p.mt2 Excelente adherencia a superficies de muy diversas texturas. Altamente eficiente para resistir los efectos de movimientos de estructuras monolíticas debido a su alta  elasticidad. Listo para usarse.
       p.mt2 <strong>Aplik</strong> cuenta con el personal capacitado para impermeabilizar cualquier tipo de superficie y asesorarte en el proceso. Si requires mayor información de materiales y procedimientos, ponte en contacto con nosotros, con gusto te ayudaremos.
 
-  .container.fluid
-    slick.c12(autplay="true")
+  //.container.fluid
+    slick.c12(autoplay="true")
       //div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_en_el_df-1.jpg)")
       div.fixedheight(style="background-image:url(app/img/pintura/pintores_de_casa_en_el_df-2.jpg)")
   
@@ -97,8 +100,9 @@ section.main#signos
     +bgimg('pintura/aplicadores.jpg', 'c')
       .container.middle.center.inner.tac
         .c2.tac: a(ui-sref="signos").prevPage
-        .c
+        .c4.o2
           //p Si deseas mantenimiento preventivo en tu hogar u oficina<br>Aplicadores es la mejor opción.
-          p Desarrollo de proyectos para obra residencia y corporativos.
+          p <strong>APLICADORES</strong> es una empresa de grupo Apli.k, encaminado a satisfacer las necesidades de todo aquel cliente que requiera respaldo y seguridad para servicios de mantenimiento residencial dentro de los rubros: electricidad, cableado estructural, plomería, albañilería, pintura e impermeabilización.
+
           a(href="http://aplicadores.com.mx/index.php" target="_blank"): img(src="app/img/pintura/aplicadores.png", alt="Aplicadores").mt2
-        .c2.tac: a(ui-sref="electrico").nextPage
+        .c2.o2.tac: a(ui-sref="electrico").nextPage

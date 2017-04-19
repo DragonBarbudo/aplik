@@ -227,6 +227,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/contacto\/clientes-aplik.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113577,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/clientes-aplik.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/clientes-aplik.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/contacto\/dominos-aplik.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -234,6 +245,17 @@
 		"initialSize": 27944,
 		"inputAbbreviatedPath": "\/app\/img\/contacto\/dominos-aplik.png",
 		"outputAbbreviatedPath": "\/app\/img\/contacto\/dominos-aplik.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/contacto\/encuentra-aplik.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240998,
+		"inputAbbreviatedPath": "\/app\/img\/contacto\/encuentra-aplik.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/contacto\/encuentra-aplik.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -480,6 +502,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/galeria-aplik.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 276686,
+		"inputAbbreviatedPath": "\/app\/img\/galeria-aplik.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria-aplik.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 368688,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-2.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 540950,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-3.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387265,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-4.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 432381,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-5.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-6-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537216,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-a.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-6-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 467469,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-b.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-6-c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235251,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-c.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-6-d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 395994,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-d.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-6-d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/galeria\/aplik-trabajos-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250596,
+		"inputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-7.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/galeria\/aplik-trabajos-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/pintura\/aplicadores.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -678,6 +810,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/signos\/equipos-de-impresion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 412311,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/equipos-de-impresion.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/equipos-de-impresion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/signos\/espectaculares-luminosos-en-cdmx.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -810,6 +953,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/img\/signos\/impresion-digital-y-sublimacion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235124,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/impresion-digital-y-sublimacion.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/impresion-digital-y-sublimacion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/signos\/impresion-gran-formato-digital.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -820,6 +974,94 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/signos\/letras-3d-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164782,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-a.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras-3d-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160077,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-b.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras-3d-c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129727,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-c.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras-3d-c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras-3d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182119,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras-3d.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras-3d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras-en-3-d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77877,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras-en-3-d.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras-en-3-d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras3d-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380671,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras3d-a.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras3d-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras3d-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133711,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras3d-b.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras3d-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/signos\/letras3d-c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205881,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/letras3d-c.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/letras3d-c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/img\/signos\/marquesinas-con-iluminacion.jpg": {
 		"fileType": 16384,
@@ -864,6 +1106,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/app\/img\/signos\/senalizacion-de-evento.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164843,
+		"inputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-evento.jpg",
+		"outputAbbreviatedPath": "\/app\/img\/signos\/senalizacion-de-evento.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/img\/signos\/senalizacion-de-eventos-1.jpg": {
 		"fileType": 16384,
@@ -951,15 +1204,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/app\/view\/contacto.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/view\/contacto.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/view\/contacto.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -971,6 +1215,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/app\/view\/electrico.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/view\/electrico.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/view\/electrico.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -978,6 +1231,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/view\/electrico.jade",
 		"outputAbbreviatedPath": "\/app\/view\/electrico.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/app\/view\/galeria.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/view\/galeria.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/view\/galeria.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/view\/galeria.jade",
+		"outputAbbreviatedPath": "\/app\/view\/galeria.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1

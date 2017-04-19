@@ -29,6 +29,10 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider){
       url: '/electrico',
       templateUrl: 'app/view/electrico.html'
     })
+    .state('galeria', {
+      url: '/galeria',
+      templateUrl: 'app/view/galeria.html'
+    })
     .state('acerca-de-nosotros', {
       url: '/acerca-de-nosotros',
       templateUrl: 'app/view/acerca-de-nosotros.html'
@@ -126,6 +130,22 @@ app.controller('FormCtrl', function($scope, $http){
 
   }
 });
+
+
+
+app.directive('scrollable', ['$document', '$window', function ($document, $window ) {
+return {
+    link: function (scope, element, attrs) {
+        $document.bind('scroll', function() {
+          $('.logo').addClass('scrolling');
+            clearTimeout( $.data( this, "scrollCheck" ) );
+                $.data( this, "scrollCheck", setTimeout(function() {
+                    $('.logo').removeClass('scrolling');
+                }, 50) );
+        });
+    }
+};
+}]);
 
 
 

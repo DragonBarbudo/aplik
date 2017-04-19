@@ -1,0 +1,21 @@
+include ../../_config.jade
+section.main#galeria
+
+
+  .container.fluid
+    +bgimg('galeria/aplik-trabajos-2.jpg', 'c')
+  .container.fluid
+    +bgimg('galeria/aplik-trabajos-3.jpg', 'c')
+  .container.fluid
+    +bgimg('galeria/aplik-trabajos-4.jpg', 'c')
+
+  .container.fluid
+    +bgimg('galeria/aplik-trabajos-5.jpg', 'c')
+  .container.fluid
+    slick.c12(autoplay="true")
+      div: img(src="app/img/galeria/aplik-trabajos-6-a.jpg", alt="Galería Apli.k").fluid
+      div: img(src="app/img/galeria/aplik-trabajos-6-b.jpg", alt="Galería Apli.k").fluid
+      div: img(src="app/img/galeria/aplik-trabajos-6-c.jpg", alt="Galería Apli.k").fluid
+      div: img(src="app/img/galeria/aplik-trabajos-6-d.jpg", alt="Galería Apli.k").fluid
+  .container.fluid
+    +bgimg('galeria/aplik-trabajos-7.jpg', 'c')

@@ -4,7 +4,7 @@ include _config.jade
   +head('Apli.k', '', '')
   //base(href="/")
   
-  body(ng-app="dw4")
+  body(ng-app="dw4", scrollable="")
   
     
     
@@ -27,6 +27,8 @@ include _config.jade
               a(ui-sref="pintura") PINTURA
               br
               a(ui-sref="electrico") ELÉCTRICO
+              br
+              a(ui-sref="galeria") GALERÍA
               br
               a(ui-sref="contacto") CONTACTO
     
@@ -62,10 +64,16 @@ include _config.jade
         .c.sectionBtn.acercaBtn(ui-sref="acerca-de-nosotros" ui-sref-active="active")
           .text
             .title Acerca de <br>Nosotros
+        .c.sectionBtn.galeriaBtn(ui-sref="galeria" ui-sref-active="active")
+          .text
+            .title Galería
         .c.sectionBtn.contactoBtn(ui-sref="contacto" ui-sref-active="active")
           .text
             .title Contacto
-            .sub: a(href="tel:5513419621").tel 55 1341 9621
+            .sub
+              a(href="tel:5513419621").tel (55) 5358-3191
+              br
+              a(href="mailto:jvelazquez@aplik.com.mx") jvelazquez@aplik.com.mx
       
     
       
