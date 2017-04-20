@@ -1479,6 +1479,15 @@ margin-left:calc(100% + 10px);
     -ms-transform: translate(-20px, 0px);
     transform: translate(-20px, 0px);
   }
+  @media only screen and (max-width: 720px) {
+    0% {
+      -webkit-transform: translate(-5px, 0px);
+      -moz-transform: translate(-5px, 0px);
+      -o-transform: translate(-5px, 0px);
+      -ms-transform: translate(-5px, 0px);
+      transform: translate(-5px, 0px);
+    }
+  }
   50% {
     -webkit-transform: translate(20px, 0px);
     -moz-transform: translate(20px, 0px);
@@ -1486,12 +1495,30 @@ margin-left:calc(100% + 10px);
     -ms-transform: translate(20px, 0px);
     transform: translate(20px, 0px);
   }
+  @media only screen and (max-width: 720px) {
+    50% {
+      -webkit-transform: translate(5px, 0px);
+      -moz-transform: translate(5px, 0px);
+      -o-transform: translate(5px, 0px);
+      -ms-transform: translate(5px, 0px);
+      transform: translate(5px, 0px);
+    }
+  }
   100% {
     -webkit-transform: translate(-20px, 0px);
     -moz-transform: translate(-20px, 0px);
     -o-transform: translate(-20px, 0px);
     -ms-transform: translate(-20px, 0px);
     transform: translate(-20px, 0px);
+  }
+  @media only screen and (max-width: 720px) {
+    100% {
+      -webkit-transform: translate(-5px, 0px);
+      -moz-transform: translate(-5px, 0px);
+      -o-transform: translate(-5px, 0px);
+      -ms-transform: translate(-5px, 0px);
+      transform: translate(-5px, 0px);
+    }
   }
 }
 .floatingH {
@@ -1597,6 +1624,14 @@ body {
   -o-transition: 0.2s all;
   transition: 0.2s all;
 }
+@media only screen and (max-width: 720px) {
+  .logo {
+    left: 14px;
+    top: 14px;
+    font-size: 0.9em;
+    width: 80px;
+  }
+}
 .logo.scrolling {
   zoom: 1;
   filter: alpha(opacity=0);
@@ -1624,8 +1659,21 @@ body {
   line-height: 1.2em;
   width: 140px;
 }
+@media only screen and (max-width: 720px) {
+  .homeContainer .acerca-de-nosotrosBtn {
+    font-size: 1em;
+    left: 104px;
+    top: 36px;
+    width: 100px;
+  }
+}
 nav.home {
   height: 100%;
+}
+@media only screen and (max-width: 720px) {
+  nav.home {
+    flex-flow: column;
+  }
 }
 nav.home .sectionBtn {
   position: relative;
@@ -1667,6 +1715,11 @@ nav.home .sectionBtn .text {
   -moz-box-sizing: box;
   box-sizing: box;
 }
+@media only screen and (max-width: 720px) {
+  nav.home .sectionBtn .text {
+    top: 45%;
+  }
+}
 nav.home .sectionBtn .text .title {
   font-size: 50px;
   text-transform: uppercase;
@@ -1681,6 +1734,16 @@ nav.home .sectionBtn .text .title {
   -o-transition: -o-transform 0.5s;
   transition: -webkit-transform 0.5s,-moz-transform 0.5s,-o-transform 0.5s,transform 0.5s;
   line-height: 1;
+}
+@media only screen and (min-width: 721px) and (max-width: 1199px) {
+  nav.home .sectionBtn .text .title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  nav.home .sectionBtn .text .title {
+    font-size: 36px;
+  }
 }
 nav.home .sectionBtn .text .sub {
   overflow: hidden;
@@ -1699,6 +1762,12 @@ nav.home .sectionBtn .text .sub a {
   -moz-transition: -moz-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: -webkit-transform 0.5s,-moz-transform 0.5s,-o-transform 0.5s,transform 0.5s;
+}
+@media only screen and (max-width: 720px) {
+  nav.home .sectionBtn .text .sub a {
+    line-height: 1em;
+    font-size: 1em;
+  }
 }
 nav.home .sectionBtn.acercaBtn,
 nav.home .sectionBtn.contactoBtn,
@@ -1744,6 +1813,11 @@ nav.home .sectionBtn.active .text .title {
   -o-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%);
+}
+@media only screen and (max-width: 720px) {
+  nav.home .sectionBtn.active .text .title {
+    font-size: 60px;
+  }
 }
 nav.home .sectionBtn.active .text .sub a {
   -webkit-transform: translateY(0%);
@@ -1833,6 +1907,11 @@ nav.homemenu.container .logo.hidden {
 .gobackBtn.hidden {
   display: none;
 }
+@media only screen and (max-width: 720px) {
+  .gobackBtn {
+    top: 30%;
+  }
+}
 .main h2,
 .main h3,
 .main h4 {
@@ -1842,18 +1921,40 @@ nav.homemenu.container .logo.hidden {
   font-weight: 700;
   line-height: 1em;
 }
+@media only screen and (min-width: 721px) and (max-width: 1199px), only screen and (max-width: 720px) {
+  .main h2,
+  .main h3,
+  .main h4 {
+    font-size: 2.4em;
+  }
+}
 .main h3 {
   font-size: 2.4em;
   text-transform: uppercase;
+}
+@media only screen and (min-width: 721px) and (max-width: 1199px), only screen and (max-width: 720px) {
+  .main h3 {
+    font-size: 1.6em;
+  }
 }
 .main h4 {
   font-size: 1.8em;
   line-height: 1.4em;
 }
+@media only screen and (min-width: 721px) and (max-width: 1199px), only screen and (max-width: 720px) {
+  .main h4 {
+    font-size: 1em;
+  }
+}
 .main p {
   padding: 5px  20px;
   font-size: 1.1em;
   font-weight: 300;
+}
+@media only screen and (max-width: 720px) {
+  .main p {
+    padding: 20px;
+  }
 }
 .main ol {
   padding: 10px 20px;
@@ -1865,6 +1966,11 @@ nav.homemenu.container .logo.hidden {
   font-size: 1.6em;
   padding: 20px;
 }
+@media only screen and (max-width: 720px) {
+  .main ul {
+    font-size: 1.2em;
+  }
+}
 .main ul li {
   margin: 5px 0;
 }
@@ -1873,6 +1979,11 @@ nav.homemenu.container .logo.hidden {
 }
 .fixedheight {
   min-height: 788px;
+}
+@media only screen and (min-width: 721px) and (max-width: 1199px), only screen and (max-width: 720px) {
+  .fixedheight {
+    min-height: auto;
+  }
 }
 .fixedheight.halfheight {
   min-height: 520px;
@@ -1957,6 +2068,12 @@ nav.homemenu.container .logo.hidden {
   background-clip: padding-box;
   background: #EBEBEB;
   cursor: pointer;
+}
+@media only screen and (max-width: 720px) {
+  .mainmenu .mainmenubtn {
+    top: 20px;
+    right: 20px;
+  }
 }
 .mainmenu .mainmenubtn span {
   position: absolute;
@@ -2114,6 +2231,16 @@ nav.homemenu.container .logo.hidden {
   color: #f5f5f5;
   padding: 40px;
 }
+@media only screen and (min-width: 721px) and (max-width: 1199px) {
+  .subtitle {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .subtitle {
+    font-size: 2.2em;
+  }
+}
 .subtitle small {
   font-size: 0.5em;
   display: block;
@@ -2163,13 +2290,20 @@ nav.homemenu.container .logo.hidden {
   -webkit-animation-timing-function: ease-in-out;
   margin: 0 auto;
 }
+@media only screen and (max-width: 720px) {
+  .prevPage,
+  .nextPage {
+    width: 30px;
+    background-size: 60px;
+  }
+}
 .prevPage.prevPage,
 .nextPage.prevPage {
-  background-position: left;
+  background-position: left bottom;
 }
 .prevPage.nextPage,
 .nextPage.nextPage {
-  background-position: right;
+  background-position: right bottom;
 }
 .slick-slide {
   background-size: cover;
@@ -2193,12 +2327,20 @@ nav.homemenu.container .logo.hidden {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
 }
+@media only screen and (max-width: 720px) {
+  .slick-arrow.slick-prev,
+  .slick-arrow.slick-next {
+    width: 50px;
+    background-size: 100px;
+  }
+}
 .slick-arrow.slick-prev {
   left: 46px;
   z-index: 9;
+  background-position: left bottom;
 }
 .slick-arrow.slick-next {
-  background-position: right;
+  background-position: right bottom;
   right: 46px;
 }
 .slick-arrow:focus {
@@ -2208,8 +2350,23 @@ nav.homemenu.container .logo.hidden {
   padding: 30px;
   margin-top: 50%;
 }
+@media only screen and (max-width: 720px) {
+  .subtitleFooter {
+    margin-top: 20%;
+  }
+}
 .subtitleFooter h4 {
   font-size: 3em;
+}
+@media only screen and (min-width: 721px) and (max-width: 1199px) {
+  .subtitleFooter h4 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .subtitleFooter h4 {
+    font-size: 1.8em;
+  }
 }
 .subtitleFooter h4,
 .subtitleFooter p {
@@ -2253,4 +2410,9 @@ h2.w.contac:after {
 }
 .clientes-aplik {
   background-size: contain;
+}
+@media only screen and (max-width: 720px) {
+  #home-solutions .bgimg {
+    height: auto;
+  }
 }

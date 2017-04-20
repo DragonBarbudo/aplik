@@ -40,12 +40,15 @@
 @-webkit-keyframes floatingH{
     0%{
         .transform(translate(-20px,0px));
+        @media @mobile{.transform(translate(-5px,0px));}
     }
     50%{
         .transform(translate(20px,0));
+        @media @mobile{.transform(translate(5px,0px));}
     }
     100%{
        .transform(translate(-20px,0px));
+       @media @mobile{.transform(translate(-5px,0px));}
     }
 }
 .floatingH {
@@ -54,6 +57,7 @@
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
+
 }
 
 

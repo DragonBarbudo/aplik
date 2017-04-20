@@ -43,6 +43,11 @@ body{
   cursor: pointer;
   .opacity(1);
   .transition(0.2s all);
+  @media @mobile{
+    left: 14px; top: 14px;
+    font-size: 0.9em;
+    width:80px;
+  }
   &.scrolling{
     .opacity(0);
     .transition(0.2s all);
@@ -64,11 +69,20 @@ body{
     font-size: 1.3em;
     font-weight: bold;
     line-height: 1.2em;
-    width:140px;;
+    width:140px;
+    @media @mobile{
+      font-size: 1em;
+      left: 104px; top: 36px;
+      width: 100px;
+    }
+
   }
 }
 nav.home{
   height: 100%;
+  @media @mobile{
+    flex-flow: column;
+  }
   .sectionBtn{
     position: relative;
     color:@w;
@@ -87,6 +101,9 @@ nav.home{
       top: 55%; left: 0;
       width: 100%;
       padding: 30px;
+      @media @mobile{
+        top: 45%;
+      }
       .box-sizing(box);
       .title{
         font-size: 50px;
@@ -95,6 +112,12 @@ nav.home{
         .translateY(-10%);
         .transition(transform .5s);
         line-height: 1;
+        @media @tablet{
+          font-size: 30px;
+        }
+        @media @mobile{
+          font-size: 36px;
+        }
       }
       .sub{
         overflow: hidden;
@@ -105,6 +128,10 @@ nav.home{
           font-weight: 300;
           .translateY(300%);
           .transition(transform .5s);
+          @media @mobile{
+            line-height: 1em;
+            font-size: 1em;
+          }
 
         }
       }
@@ -125,7 +152,12 @@ nav.home{
       flex-basis: 100%; .transition(.3s all);
       .text{
         //text-align: right;
-        .title{ font-size: 100px; .translateY(0%);   }
+        .title{
+          font-size: 100px; .translateY(0%);
+          @media @mobile{
+            font-size: 60px;
+          }
+        }
         .sub{
           a{
             .translateY(0%); font-size: 1.4em;
@@ -134,6 +166,7 @@ nav.home{
               font-weight: 400;
               font-size: 3em;
               color:@w;
+
             }
           }
         }
@@ -178,6 +211,7 @@ nav.homemenu.container{
     width: 220px;
     .transition(0.6s all);
     .opacity(1);
+
     .section-link{
       color:@w;
       padding-top: 30px;
@@ -207,6 +241,9 @@ nav.homemenu.container{
   &.hidden{
     display: none;
   }
+  @media @mobile{
+    top: 30%;
+  }
 }
 
 
@@ -217,19 +254,31 @@ nav.homemenu.container{
     font-size: 3.4em;
     font-weight: 700;
     line-height: 1em;
+    @media @tablet, @mobile{
+      font-size: 2.4em;
+    }
   }
   h3{
     font-size: 2.4em;
     text-transform: uppercase;
+    @media @tablet, @mobile{
+      font-size: 1.6em;
+    }
   }
   h4{
     font-size: 1.8em;
     line-height: 1.4em;
+    @media @tablet, @mobile{
+      font-size: 1em;
+    }
   }
   p{
     padding: 5px  20px;
     font-size: 1.1em;
     font-weight: 300;
+    @media @mobile{
+      padding: 20px;
+    }
   }
   ol{
     padding: 10px 20px;
@@ -240,6 +289,9 @@ nav.homemenu.container{
     list-style: none;
     font-size: 1.6em;
     padding: 20px;
+    @media @mobile{
+      font-size: 1.2em;
+    }
     li{
       margin: 5px 0;
     }
@@ -251,6 +303,7 @@ nav.homemenu.container{
 
 .fixedheight{
   min-height: 788px;
+  @media @tablet, @mobile{ min-height: auto; }
   &.halfheight{
     min-height: 520px;
   }
@@ -307,6 +360,9 @@ nav.homemenu.container{
     .border-radius(50%);
     background: #EBEBEB;
     cursor: pointer;
+    @media @mobile{
+      top: 20px; right: 20px;
+    }
     span{
       position: absolute;
       left: 12px;
@@ -406,7 +462,12 @@ nav.homemenu.container{
   line-height: 1;
   color:@w;
   padding: 40px;
-  //text-shadow: 0 0 10px fade(@b, 50%);
+  @media @tablet{
+    font-size: 3em;
+  }
+  @media @mobile{
+    font-size: 2.2em;
+  }
   small{
     font-size: 0.5em;
     display: block;
@@ -439,11 +500,15 @@ nav.homemenu.container{
   background-size: 200px;
   .floatingH;
   margin: 0 auto;
+  @media @mobile{
+    width: 30px;
+    background-size: 60px;
+  }
   &.prevPage{
-    background-position: left;
+    background-position: left bottom;
   }
   &.nextPage{
-    background-position: right;
+    background-position: right bottom;
   }
 }
 
@@ -462,13 +527,18 @@ nav.homemenu.container{
     background-image: url(img/slider_arrows.png);
     background-size: 200px;
     .floatingH;
+    @media @mobile{
+      width: 50px;
+      background-size: 100px;
+    }
   }
   &.slick-prev{
     left: 46px;
     z-index: 9;
+    background-position: left bottom;
   }
   &.slick-next{
-    background-position: right;
+    background-position: right bottom;
     right: 46px;
   }
   cursor:pointer;
@@ -480,8 +550,17 @@ nav.homemenu.container{
 .subtitleFooter{
   padding: 30px;
   margin-top: 50%;
+  @media @mobile{
+    margin-top: 20%;
+  }
   h4{
     font-size: 3em;
+    @media @tablet{
+      font-size: 2em;
+    }
+    @media @mobile{
+      font-size: 1.8em;
+    }
   }
   h4,p{
     color:@w;
@@ -512,3 +591,8 @@ h2.w.contac{
 .signoslast{background-position: bottom; background-size: 150%;}
 
 .clientes-aplik{ background-size: contain;}
+
+
+#home-solutions .bgimg{
+  @media @mobile{ height: auto;}
+}
