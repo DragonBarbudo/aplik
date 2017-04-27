@@ -52,8 +52,9 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 });
 
 
-app.run(function($rootScope, $document){
+app.run(function($rootScope, $document, $state){
   $rootScope.$on('$stateChangeStart', function(event, toState){
+
     $document.scrollTop(0, 500);
     setTimeout(function(){
       if($('.main h2').length>0 || ('.main h3').length>0 || ('.main h4').length>0){
@@ -68,10 +69,17 @@ app.run(function($rootScope, $document){
         sr.reveal('.ourclients .c');
       }
     }, 1000);
+    
     $('.mainmenubtn').removeClass('active');
     $('.mainmenuview').hide();
 
+
+
+
   });
+
+
+
 
   $('.mainmenubtn').click(function(){
     $(this).toggleClass('active');

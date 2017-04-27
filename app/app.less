@@ -32,7 +32,23 @@ body{
   margin: 0 auto;
   position: relative;
 */
+/* TEST BARS FOR MOBILE */
+/*
+  &:before, &:after{
+    content:"";
+    display: block;
+    width: 20px; height: 100%;
+    outline: 1px solid @g;
+    position: fixed;
+    top:0;
+    z-index: 99999;
+  }
+  &:before{left:0;}
+  &:after{right:0;}
+*/
 }
+
+
 
 
 .logo{
@@ -44,13 +60,18 @@ body{
   .opacity(1);
   .transition(0.2s all);
   @media @mobile{
-    left: 14px; top: 14px;
+    left: 0; top: 0;
     font-size: 0.9em;
     width:80px;
+    .scale(.65);
+    position: absolute;
   }
   &.scrolling{
     .opacity(0);
     .transition(0.2s all);
+    @media @mobile{
+      .opacity(1);
+    }
   }
 }
 
@@ -72,7 +93,7 @@ body{
     width:140px;
     @media @mobile{
       font-size: 1em;
-      left: 104px; top: 36px;
+      left: 80px; top: 20px;
       width: 100px;
     }
 
@@ -80,6 +101,7 @@ body{
 }
 nav.home{
   height: 100%;
+  position: relative;
   @media @mobile{
     flex-flow: column;
   }
@@ -96,6 +118,12 @@ nav.home{
     &:nth-child(4){ background-image: url(img/acerca-de-aplik.jpg); }
     &:nth-child(5){ background-image: url(img/galeria-aplik.jpg); }
     &:nth-child(6){ background-image: url(img/contacta-aplik.jpg); }
+
+    @media @mobile{
+      display: block;
+      height: 33%;
+    }
+
     .text{
       position: absolute;
       top: 55%; left: 0;
@@ -150,12 +178,19 @@ nav.home{
     }
     &.active{
       flex-basis: 100%; .transition(.3s all);
+      @media @mobile{
+        position: absolute;
+        top:0; right: 0; bottom: 0; left: 0;
+        z-index: 10;
+        height: 100%;
+      }
+
       .text{
         //text-align: right;
         .title{
           font-size: 100px; .translateY(0%);
           @media @mobile{
-            font-size: 60px;
+            font-size: 40px;
           }
         }
         .sub{
@@ -166,6 +201,9 @@ nav.home{
               font-weight: 400;
               font-size: 3em;
               color:@w;
+              @media @mobile{
+                font-size: 1.8em;
+              }
 
             }
           }
@@ -243,6 +281,7 @@ nav.homemenu.container{
   }
   @media @mobile{
     top: 30%;
+
   }
 }
 
@@ -263,13 +302,15 @@ nav.homemenu.container{
     text-transform: uppercase;
     @media @tablet, @mobile{
       font-size: 1.6em;
+      br{display: none;}
     }
+
   }
   h4{
     font-size: 1.8em;
     line-height: 1.4em;
     @media @tablet, @mobile{
-      font-size: 1em;
+      font-size: 1.6em;
     }
   }
   p{
@@ -278,6 +319,7 @@ nav.homemenu.container{
     font-weight: 300;
     @media @mobile{
       padding: 20px;
+      font-size: 1em;
     }
   }
   ol{
@@ -314,6 +356,7 @@ nav.homemenu.container{
   background-size: cover;
   background-position: center;
   height: 788px;
+  overflow: hidden;
   @media @mobile{
     height: 320px;
   }
@@ -347,6 +390,10 @@ nav.homemenu.container{
         color:@w;
       }
   }
+  @media @mobile{
+    .scale(.65);
+    bottom: 0; right: 0;
+  }
 }
 
 
@@ -361,7 +408,8 @@ nav.homemenu.container{
     background: #EBEBEB;
     cursor: pointer;
     @media @mobile{
-      top: 20px; right: 20px;
+      top: 0; right: 0;
+      .scale(.65);
     }
     span{
       position: absolute;
@@ -369,6 +417,7 @@ nav.homemenu.container{
       display: block;
       width: 36px; height: 6px;
       background: @b;
+
       &:nth-child(1){
         top: 14px;
         .transition(all 0.4s);
@@ -428,8 +477,10 @@ nav.homemenu.container{
       font-size: 3em;
       display: inline-block;
       text-align: center;
-
       .underlineFX;
+      @media @mobile{
+        font-size: 2em;
+      }
     }
   }
 }
@@ -466,7 +517,8 @@ nav.homemenu.container{
     font-size: 3em;
   }
   @media @mobile{
-    font-size: 2.2em;
+    font-size: 2em;
+    padding: 20px;
   }
   small{
     font-size: 0.5em;
@@ -545,13 +597,18 @@ nav.homemenu.container{
   &:focus{outline:none;}
 }
 
-
-
+@media @mobile{
+  .addressbg{
+    background-position: right;
+    background-size: 200%;
+  }
+}
 .subtitleFooter{
   padding: 30px;
   margin-top: 50%;
   @media @mobile{
-    margin-top: 20%;
+    margin-top: 10%;
+    padding: 0;
   }
   h4{
     font-size: 3em;
@@ -588,11 +645,42 @@ h2.w.contac{
 }
 
 
-.signoslast{background-position: bottom; background-size: 150%;}
+.signoslast{
+  background-position: bottom; background-size: 150%;
+  @media @mobile{
+    background-size: 280%;
+  }
+}
 
 .clientes-aplik{ background-size: contain;}
 
 
 #home-solutions .bgimg{
   @media @mobile{ height: auto;}
+}
+
+
+
+.social{
+  text-align: center;
+  a{
+    color:@g;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid @g;
+    padding: 10px;
+    .border-radius(50%);
+    width: 40px; height: 40px;
+    margin: 10px;
+    &:hover{
+      background: @sec;
+      color:@w;
+    }
+  }
+}
+
+
+.impertitle{
+  @media @mobile{ font-size: 0.7em; }
 }
